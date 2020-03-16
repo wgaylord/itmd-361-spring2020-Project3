@@ -41,15 +41,11 @@
   clear: both;
 }
 
-
-
 .center {
 	text-align: center;
 }
 
 .infocenter{
-	border-color: green;
-	border: 10px 10px;
 	position:relative;
 	left: 27%;
 	width: 46%;
@@ -63,12 +59,15 @@
 	left:40px;
 }
 
+
 body {
+	font-family: Times;
 	background-color: gray;
 	
 }
 
 li {
+	font-family: 'Roboto Mono', monospace;
 	margin:0px 10px;
 }
 
@@ -84,6 +83,7 @@ h1 {
 }
 
 h2 {
+	
 	font-size: 2.5em;
 }
 
@@ -95,6 +95,7 @@ h3 {
 p  {
 	position:relative;
 	left:30px;
+	font-size: 1.1em;
 }
 
 em {
