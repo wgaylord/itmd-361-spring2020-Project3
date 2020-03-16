@@ -37,28 +37,6 @@
   font-weight: bold;
 }
 
-.clear {
-  clear: both;
-}
-
-.center {
-	text-align: center;
-}
-
-.infocenter{
-	position:relative;
-	left: 27%;
-	width: 46%;
-	height:150%;
-	padding: 0.5% 0.3%
-	
-}
-
-.innerList {
-	position:relative;
-	left:40px;
-}
-
 
 body {
 	font-family: Times;
@@ -69,6 +47,7 @@ body {
 li {
 	font-family: 'Roboto Mono', monospace;
 	margin:0px 10px;
+	max-width: 90%;
 }
 
 
@@ -101,4 +80,35 @@ p  {
 em {
 	font-style: italic;
 	font-weight: bold;
+}
+
+img {
+	
+}
+
+.clear {
+  clear: both;
+}
+
+.center {
+	text-align: center;
+}
+
+.infocenter{
+
+	position:relative;
+	left: 27%;
+	width: 45%;
+	height:150%;
+	padding: 0.5% 0.3%
+	
+}
+
+.innerList {
+	position:relative;
+	left:40px;
+}
+
+.programming {
+font-family: 'Press Start 2P', cursive;
 }
