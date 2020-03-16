@@ -25,6 +25,14 @@
   
 }
 
+#nav ul li a.current {
+
+	background-color: lime;
+	color: black;
+	font-weight: bold;
+
+}
+
 #nav ul li a:hover {
   font-weight: bold;
 }
@@ -34,12 +42,14 @@
 }
 
 
+
 .center {
 	text-align: center;
 }
 
 .infocenter{
-	background-color: white;
+	border-color: green;
+	border: 10px 10px;
 	position:relative;
 	left: 27%;
 	width: 46%;
