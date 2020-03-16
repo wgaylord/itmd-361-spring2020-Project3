@@ -39,8 +39,13 @@
 }
 
 .infocenter{
-position:relative;
-	left: 225px;
+	background-color: white;
+	position:relative;
+	left: 27%;
+	width: 46%;
+	height:150%;
+	padding: 0.5% 0.3%
+	
 }
 
 .innerList {
@@ -48,6 +53,9 @@ position:relative;
 	left:40px;
 }
 
+body {
+	background-color: gray;
+}
 
 li {
 	margin:0px 10px;
@@ -69,7 +77,6 @@ h2 {
 
 h3 {
 	font-size: 2em;
-
 }
 
 p  {
@@ -78,5 +85,6 @@ p  {
 }
 
 em {
-	
+	font-style: italic;
+	font-weight: bold;
 }
