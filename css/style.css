@@ -1,7 +1,7 @@
 #nav {
-	background-color: green;
-    position: relative;
-	text-align: center;
+  background-color: green;
+ position: relative;
+ text-align: center;
 }
 
 #nav ul {
@@ -27,9 +27,9 @@
 
 #nav ul li a.current {
 
-	background-color: lime;
-	color: black;
-	font-weight: bold;
+  background-color: lime;
+  color: black;
+  font-weight: bold;
 
 }
 
@@ -39,76 +39,163 @@
 
 
 body {
-	font-family: Times;
-	background-color: gray;
+  font-family: Times;
+  background-color: gray;
 	
 }
 
 li {
-	font-family: 'Roboto Mono', monospace;
-	margin:0px 10px;
-	max-width: 90%;
+  font-family: 'Roboto Mono', monospace;
+  margin:0px 10px;
+  max-width: 90%;
 }
 
 
 strong {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 h1 {
-	font-family: Impact;
-	font-size: 4em;
+  font-family: Impact;
+  font-size: 4em;
 	
 }
 
 h2 {
 	
-	font-size: 2.5em;
+  font-size: 2.5em;
 }
 
 h3 {
 	
-	font-size: 2em;
+  font-size: 2em;
 }
 
 p  {
-	position:relative;
-	left:30px;
-	font-size: 1.1em;
+  position:relative;
+  left:30px;
+  font-size: 1.1em;
 }
 
 em {
-	font-style: italic;
-	font-weight: bold;
+  font-style: italic;
+  font-weight: bold;
 }
 
-img {
+img#arrl {
+  position:relative;
+  left: 30px;
+  width: 600px;
+
+}
+
+img#antenna {
+  position:relative;
+  left: 30%;
+  width: 300px;
+
+}
+
+img#satellite {
+  position:relative;
+  left: 30%;
+  width: 300px;
+
+}
+
+img.telescope {
+  position:relative;
+  left: 30px;
+  padding: 0px 0px;
+  border: inline-block;
+  width: 300px;
+
+}
+
+img.moon {
+	
+  left: 180px;
 	
 }
 
-.clear {
-  clear: both;
+img.stars {
+  position:relative;
+  left: 30px;
+  padding: 0px 0px;
+  border: inline-block;
+  width: 300px;
+
 }
 
+img.michsky {
+  position:relative;
+  left: 180px;
+  padding: 0px 0px;
+  border: inline-block;
+  width: 300px;
+
+}
+
+img.chicago {
+  position:relative;
+  left: 30px;
+  padding: 0px 0px;
+  border: inline-block;
+  width: 300px;
+
+}
+
+img.chicagoedits {
+  position:relative;
+  left: 40px;
+  padding: 0px 0px;
+  border: inline-block;
+  width: 190px;
+
+}
+
+img#satnogs {
+  position:relative;
+  left: 35%;
+  width: 300px;
+
+}
+
+p#antenacaption{
+  left: 27.5%;
+}
+
+#satnogsmap {
+  position:relative;
+  width: 80%;
+  left: 13%;
+
+}
+
+
 .center {
-	text-align: center;
+  text-align: center;
 }
 
 .infocenter{
 
-	position:relative;
-	left: 27%;
-	width: 45%;
-	height:150%;
-	padding: 0.5% 0.3%
+  position:relative;
+  left: 27%;
+  width: 45%;
+  height:150%;
+  padding: 0.5% 0.3%
 	
 }
 
 .innerList {
-	position:relative;
-	left:40px;
+  position:relative;
+  left:40px;
 }
 
 .programming {
-font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.caption {
+  font-size: 0.8em;
 }
