@@ -168,6 +168,11 @@ p#antenacaption{
 
 }
 
+#map {
+    height: 940px;
+    width: 100%;
+}
+
 
 .center {
   text-align: center;
@@ -195,3 +200,5 @@ p#antenacaption{
 .caption {
   font-size: 0.8em;
 }
+
+
