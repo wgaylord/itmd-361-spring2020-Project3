@@ -168,6 +168,12 @@ p#antenacaption{
 
 }
 
+#map {	
+    height: 500px;	
+    width: 50%;	
+	left:25%;	
+}
+
 
 .center {
   text-align: center;
