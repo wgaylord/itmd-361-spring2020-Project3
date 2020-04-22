@@ -1,5 +1,5 @@
 #nav {
-  background-color: green;
+  background-color: lime;
  position: relative;
  text-align: center;
 }
@@ -27,7 +27,7 @@
 
 #nav ul li a.current {
 
-  background-color: lime;
+  background-color: #0099FF;
   color: black;
   font-weight: bold;
 
@@ -40,7 +40,7 @@
 
 body {
   font-family: Times;
-  background-color: gray;
+  background-color: lightgray;
 	
 }
 
@@ -86,20 +86,20 @@ em {
 img#arrl {
   position:relative;
   left: 30px;
-  width: 600px;
+  width: 350px;
 
 }
 
 img#antenna {
   position:relative;
-  left: 30%;
+  left: 20%;
   width: 300px;
 
 }
 
 img#satellite {
   position:relative;
-  left: 30%;
+  left: 20%;
   width: 300px;
 
 }
@@ -114,7 +114,7 @@ img.telescope {
 
 img.moon {
 	
-  left: 180px;
+  left: 30px;
 	
 }
 
@@ -128,7 +128,7 @@ img.stars {
 
 img.michsky {
   position:relative;
-  left: 180px;
+  left: 30px;
   padding: 0px 0px;
   width: 300px;
 
@@ -158,7 +158,7 @@ img#satnogs {
 }
 
 p#antenacaption{
-  left: 27.5%;
+  left: 20.5%;
 }
 
 #satnogsmap {
@@ -166,12 +166,6 @@ p#antenacaption{
   width: 80%;
   left: 13%;
 
-}
-
-#map {
-    height: 500px;
-    width: 50%;
-	left:25%;
 }
 
 
@@ -203,3 +197,208 @@ p#antenacaption{
 }
 
 
+
+@media screen and (min-width: 600px) {
+#nav {
+ background-color: green;
+ position: relative;
+ text-align: center;
+}
+
+#nav ul li a {
+  display: block;
+  background-color: blue;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 10px 8px 10px;
+  
+}
+
+#nav ul li a.current {
+
+  background-color: lime;
+  color: black;
+  font-weight: bold;
+
+}
+
+
+img#arrl {
+  position:relative;
+  left: 25px;
+  width: 475px;
+
+}
+
+img#antenna {
+  position:relative;
+  left: 25%;
+  width: 300px;
+
+}
+
+img#satellite {
+  position:relative;
+  left: 25%;
+  width: 250px;
+
+}
+
+img.telescope {
+  position:relative;
+  left: 27%;
+  padding: 0px 0px;
+  width: 300px;
+
+}
+
+img.moon {
+	
+  left: 27%;
+	
+}
+
+img.stars {
+  position:relative;
+  left: 27%;
+  padding: 0px 0px;
+  width: 300px;
+
+}
+
+img.michsky {
+  position:relative;
+  left: 27%;
+  padding: 0px 0px;
+  width: 300px;
+
+}
+
+img.chicago {
+  position:relative;
+  left: 27%;
+  padding: 0px 0px;
+  width: 300px;
+
+}
+
+img.chicagoedits {
+  position:relative;
+  left: 36%;
+  padding: 0px 0px;
+  width: 190px;
+
+}
+
+p#antenacaption{
+  left: 25.5%;
+}
+
+
+}
+
+@media screen and (min-width: 1000px) {
+#nav {
+ background-color: green;
+ position: relative;
+ text-align: center;
+}
+
+#nav ul li a {
+  display: block;
+  background-color: blue;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 10px 8px 10px;
+  
+}
+
+#nav ul li a.current {
+
+  background-color: lime;
+  color: black;
+  font-weight: bold;
+
+}
+
+body {
+  font-family: Times;
+  background-color: gray;
+	
+}
+
+img#arrl {
+  position:relative;
+  left: 30px;
+  width: 600px;
+
+}
+
+img#antenna {
+  position:relative;
+  left: 30%;
+  width: 300px;
+
+}
+
+img#satellite {
+  position:relative;
+  left: 30%;
+  width: 300px;
+
+}
+
+img.telescope {
+  position:relative;
+  left: 180px;
+  padding: 0px 0px;
+  width: 300px;
+
+}
+
+img.moon {
+	
+  left: 180px;
+	
+}
+
+img.stars {
+  position:relative;
+  left: 180px;
+  padding: 0px 0px;
+  width: 300px;
+
+}
+
+img.michsky {
+  position:relative;
+  left: 180px;
+  padding: 0px 0px;
+  width: 300px;
+
+}
+
+img.chicago {
+  position:relative;
+  left: 30%;
+  padding: 0px 0px;
+  width: 300px;
+
+}
+
+img.chicagoedits {
+  position:relative;
+  left: 40px;
+  padding: 0px 0px;
+  width: 190px;
+
+}
+
+p#antenacaption{
+  left: 27.5%;
+}
+
+
+}
